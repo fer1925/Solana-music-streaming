@@ -1,0 +1,24 @@
+Introducción
+La tecnología blockchain ha permitido el desarrollo de aplicaciones descentralizadas que almacenan información de forma segura y transparente. Una de las plataformas más utilizadas para este tipo de aplicaciones es Solana, la cual ofrece alta velocidad de procesamiento y bajos costos de transacción.
+En este proyecto se desarrolló un sistema sencillo de streaming musical descentralizado, donde un usuario puede crear una biblioteca de canciones y administrarlas mediante un programa en la blockchain. Para facilitar el desarrollo se utilizó el framework Anchor Framework, el cual permite crear programas en Solana utilizando el lenguaje Rust.
+
+Descripción del Proyecto
+El proyecto consiste en un programa que simula una plataforma de streaming musical en la cual un usuario puede crear su propio servicio y administrar una lista de canciones. La información del streaming y de las canciones se almacena en una cuenta dentro de la blockchain.
+Cada streaming contiene información como el propietario, el nombre del servicio y una lista de canciones. A su vez, cada canción incluye datos como su nombre, género, artista y estado de disponibilidad.
+
+Funcionalidades
+El sistema implementa las operaciones básicas CRUD, que permiten administrar la biblioteca musical:
+Crear streaming: permite crear la cuenta del servicio de streaming en la blockchain.
+Agregar canción: añade nuevas canciones a la biblioteca musical.
+Ver canciones: muestra la lista de canciones almacenadas.
+Eliminar canción: permite borrar una canción específica de la lista.
+Alternar disponibilidad: cambia el estado de una canción entre disponible y no disponible.
+
+Pruebas del Sistema
+Las pruebas del programa se realizaron mediante Solana Playground, donde se ejecutaron las diferentes instrucciones del sistema. Durante las pruebas se verificó la creación del streaming, la adición de canciones, la consulta de los datos almacenados y la modificación o eliminación de canciones.
+Estas pruebas permitieron confirmar que el sistema funciona correctamente y que los datos se almacenan de manera adecuada dentro de la blockchain.
+
+Conclusión
+
+El desarrollo de este proyecto permitió comprender cómo funcionan las aplicaciones descentralizadas en la blockchain de Solana. Además, se aplicaron conceptos de programación en Rust y el uso del framework Anchor para crear y gestionar cuentas dentro de la red.
+La realización del proyecto resultó satisfactoria, ya que permitió implementar un sistema funcional de streaming musical con operaciones CRUD, demostrando el potencial de la tecnología blockchain para el desarrollo de aplicaciones descentralizadas.
